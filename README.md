@@ -20,3 +20,11 @@ pip install -r requirements.txt
 
 ## CI
 GitHub Actions runs automatically on every push to main.
+## Project Structure
+
+- `data/` → Raw climate datasets (ignored in git)
+- `notebooks/` → EDA per country
+- `src/` → Data processing functions
+- `scripts/` → Pipeline execution scripts
+- `tests/` → Unit tests
+- `docs/` → Notes and documentation
